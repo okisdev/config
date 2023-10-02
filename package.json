@@ -1,0 +1,12 @@
+{
+  "name": "config",
+  "author": "Harry Yep <git@hode.co.uk>",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
