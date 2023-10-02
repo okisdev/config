@@ -1,0 +1,2 @@
+# config
+personal configuration
