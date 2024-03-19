@@ -5,14 +5,30 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/services"
 
+cask "1password"
 cask "adrive"
 cask "arc"
-cask "feishu"
+cask "cloudflare-warp"
+cask "codewhisperer"
+cask "copilot-for-xcode"
+cask "expo-orbit"
+cask "github"
 cask "google-chrome"
 cask "iina"
+cask "input-source-pro"
 cask "iterm2"
+cask "itsycal"
+cask "notion"
+cask "macupdater"
+cask "orbstack"
+cask "raycast"
+cask "setapp"
+cask "swiftformat-for-xcode"
 cask "telegram"
 cask "visual-studio-code"
 cask "zed"
 
+mas "Bob", id: 1630034110
+mas "Infuse", id: 1136220934
+mas "Irvue", id: 1039633667
 mas "Xcode", id: 497799835
