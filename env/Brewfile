@@ -1,0 +1,18 @@
+# Usage: brew bundle --file=env/Brewfile
+
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/services"
+
+cask "adrive"
+cask "arc"
+cask "feishu"
+cask "google-chrome"
+cask "iina"
+cask "iterm2"
+cask "telegram"
+cask "visual-studio-code"
+cask "zed"
+
+mas "Xcode", id: 497799835

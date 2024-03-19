@@ -2,6 +2,3 @@
 
 personal configuration
 
-# LICENSE
-
-[MIT](./LICENSE)
