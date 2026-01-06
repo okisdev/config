@@ -1,15 +1,39 @@
 {
   "name": "@okisdev/config",
   "description": "okisdev's personal configuration",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "author": "Harry Yep <git@hode.co.uk>",
-  "module": "index.ts",
+  "license": "MIT",
   "type": "module",
+  "exports": {
+    "./biome": "./biome/biome.jsonc"
+  },
+  "files": [
+    "biome"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okisdev/config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/okisdev/config/issues"
+  },
+  "homepage": "https://github.com/okisdev/config#readme",
+  "keywords": [
+    "config",
+    "biome",
+    "linter",
+    "formatter"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
-    "biome:check": "pnpm exec biome check",
-    "biome:format": "pnpm exec biome format --write",
-    "biome:lint": "pnpm exec biome lint --write",
-    "biome:fix": "pnpm exec biome check --fix"
+    "biome:check": "biome check",
+    "biome:format": "biome format --write",
+    "biome:lint": "biome lint --write",
+    "biome:fix": "biome check --fix"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.11",
@@ -17,9 +41,7 @@
     "ultracite": "^7.0.8"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "tailwindcss": "^4.1.18"
+    "@biomejs/biome": "^2.0.0",
+    "ultracite": "^7.0.0"
   }
 }
