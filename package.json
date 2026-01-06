@@ -1,7 +1,7 @@
 {
   "name": "@okisdev/config",
   "description": "okisdev's personal configuration",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "Harry Yep <git@hode.co.uk>",
   "license": "MIT",
   "type": "module",
