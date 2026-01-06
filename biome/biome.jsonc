@@ -73,11 +73,5 @@
     "formatter": {
       "lineWidth": 1
     }
-  },
-  "files": {
-    "includes": [
-      "!**/worker-configuration.d.ts",
-      "!**/components/ui"
-    ]
   }
 }
