@@ -8,6 +8,8 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    # Skip if commit is from release bot
+    if: "!contains(github.event.head_commit.message, 'chore: release')"
     permissions:
       contents: write
     steps:
